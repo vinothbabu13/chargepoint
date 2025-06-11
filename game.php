@@ -11,7 +11,7 @@ class GameOfLife {
     private $nextGenerationMatrix = array();
 
     /**
-     * params - dimension for the matrix 10*10 as default
+     * params - dimension for the matrix 10*10 as default and value can be passed dynamically.
      */
     public function __construct(int $dimension = 10) {
         $this->dimension = $dimension;
